@@ -27,3 +27,11 @@ VC++/OpencvTest/Debug/OpencvTest.pdb
 VC++/OpencvTest/OpencvTest/Debug/
 VC++/OpencvTest/OpencvTest/Release/
 VC++/OpencvTest/Release/
+C#/CameraClient/.vs/
+C#/CameraClient/CameraClient/back/
+C#/CameraClient/CameraClient/bin/
+C#/CameraClient/CameraClient/obj/
+C#/CameraClient/Communication/bin/
+C#/CameraClient/Communication/obj/
+C#/CameraClient/SDKLib/bin/
+C#/CameraClient/SDKLib/obj/
