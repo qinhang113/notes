@@ -1,4 +1,4 @@
-# OpencvTest
+# CameraClient
 
 Winform下从TCP server接收图像数据并显示
 
