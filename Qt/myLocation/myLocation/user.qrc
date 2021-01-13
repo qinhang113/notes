@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>user/setting.qml</file>
+        <file>user/userMain.qml</file>
+        <file>user/showChart.qml</file>
+    </qresource>
+</RCC>

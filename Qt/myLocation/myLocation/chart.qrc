@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>chart/QChart.js</file>
+        <file>chart/QChart.qml</file>
+        <file>chart/QChartGallery.js</file>
+    </qresource>
+</RCC>

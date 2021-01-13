@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/map.png</file>
+        <file>png/set.png</file>
+        <file>png/fingerprint.png</file>
+        <file>png/refresh.png</file>
+        <file>png/plus.png</file>
+        <file>png/close.png</file>
+        <file>png/clock.png</file>
+        <file>png/portrait.png</file>
+        <file>png/chart.png</file>
+        <file>png/information.png</file>
+        <file>png/recycle.png</file>
+        <file>png/waitting.gif</file>
+    </qresource>
+</RCC>

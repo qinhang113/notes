@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>web.js</file>
+        <file>Define.qml</file>
+        <file>initFile.qml</file>
+    </qresource>
+</RCC>

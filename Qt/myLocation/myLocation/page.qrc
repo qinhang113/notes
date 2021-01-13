@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>page/location.qml</file>
+        <file>page/mark.qml</file>
+    </qresource>
+</RCC>
