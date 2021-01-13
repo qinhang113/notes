@@ -2,8 +2,16 @@
 //
 
 #include "pch.h"
+
+#include <iostream>
+#include <WINSOCK2.H>
+#include <stdio.h>
+#include <vector>
+#include <thread>
+#include <mutex>
+using namespace std;
+#pragma  comment(lib,"ws2_32.lib")
 #include "opencv.hpp"
-#include "ConfigServer.h"
 //#define MAXSENDSIZE 3147274	//1366*768*3 + 10
 
 cv::Mat FrameData;
