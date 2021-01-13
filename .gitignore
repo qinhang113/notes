@@ -1,12 +1,6 @@
 
-VC++/CameraServer/CameraServer/x64/Debug/CameraServer.tlog/CL.read.1.tlog
-VC++/CameraServer/.vs/CameraServer/v16/.suo
-VC++/CameraServer/.vs/CameraServer/v16/Browse.VC.db
-VC++/CameraServer/.vs/CameraServer/v16/Browse.VC.db-shm
-VC++/CameraServer/.vs/CameraServer/v16/Browse.VC.db-wal
-VC++/CameraServer/.vs/CameraServer/v16/Browse.VC.opendb
-VC++/CameraServer/.vs/CameraServer/v16/ipch/5d6b056542ca6fa4.ipch
-VC++/CameraServer/.vs/CameraServer/v16/ipch/89342bbb6dd76989.ipch
+VC++/CameraServer/CameraServer/x64/Debug/
+VC++/CameraServer/.vs/CameraServer/v16/
 VC++/CameraServer/CameraServer/Debug/CameraServer.exe.recipe
 VC++/CameraServer/CameraServer/Debug/CameraServer.log
 VC++/CameraServer/CameraServer/Debug/CameraServer.obj
@@ -26,3 +20,10 @@ VC++/CameraServer/Debug/CameraServer.exe
 VC++/CameraServer/Debug/CameraServer.ilk
 VC++/CameraServer/Debug/CameraServer.pdb
 VC++/CameraServer/Release/
+VC++/OpencvTest/.vs/
+VC++/OpencvTest/Debug/OpencvTest.ilk
+VC++/OpencvTest/Debug/OpencvTest.exe
+VC++/OpencvTest/Debug/OpencvTest.pdb
+VC++/OpencvTest/OpencvTest/Debug/
+VC++/OpencvTest/OpencvTest/Release/
+VC++/OpencvTest/Release/
