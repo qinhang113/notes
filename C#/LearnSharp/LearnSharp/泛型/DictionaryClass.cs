@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,6 +45,7 @@ namespace LearnSharp
             Console.WriteLine("{0}", keyValuePairs[d2]);
             //需要实现IEquatable接口否则ContainsKey返回Flase
             Console.WriteLine(keyValuePairs.ContainsKey(d1));
+            
         }
     }
 }

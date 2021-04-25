@@ -25,7 +25,7 @@ namespace LearnSharp
             dict.Add("哈希集", new HashSetClass()); 
             dict.Add("排序集", new SortedSetClass());
             dict.Add("字典", new DictionaryClass());
-            
+            dict.Add("并发集合", new ConcurrentXClass());
 
             Console.WriteLine("输入如下指令进行操作:");
             int index = 0;
