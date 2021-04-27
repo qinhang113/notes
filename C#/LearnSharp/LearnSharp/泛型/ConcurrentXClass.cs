@@ -13,13 +13,16 @@ namespace LearnSharp
         public override void TestFun()
         {
             //以下并发集合不在展示使用
-            //ConcurrentQueue<T>
+            //ConcurrentQueue<T> 
             //ConcurrentStack<T>
             //ConcurrentBag<T>
             //ConcurrentDictionary<TKey, TValue>
 
             //BlockingCollection片段代码来自C#入门经典(第7版) 10.11章节
             #region BlockingCollection
+            //BlockingCollection默认为ConcurrentQueue。若在BlockingCollection构造函数传入ConcurrentStack，则sharedCollection为拥有栈的特征。
+            //ConcurrentStack<int> vs = new ConcurrentStack<int>();
+            //var sharedCollection = new BlockingCollection<int>(vs);
             var sharedCollection = new BlockingCollection<int>();
             var events = new ManualResetEventSlim[2];
             var waits = new WaitHandle[2];

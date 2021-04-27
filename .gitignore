@@ -1,20 +1,7 @@
 
 VC++/CameraServer/CameraServer/x64/Debug/
 VC++/CameraServer/.vs/CameraServer/v16/
-VC++/CameraServer/CameraServer/Debug/CameraServer.exe.recipe
-VC++/CameraServer/CameraServer/Debug/CameraServer.log
-VC++/CameraServer/CameraServer/Debug/CameraServer.obj
-VC++/CameraServer/CameraServer/Debug/CameraServer.pch
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/CameraServer.lastbuildstate
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/CL.command.1.tlog
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/CL.read.1.tlog
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/CL.write.1.tlog
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/link.command.1.tlog
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/link.read.1.tlog
-VC++/CameraServer/CameraServer/Debug/CameraServer.tlog/link.write.1.tlog
-VC++/CameraServer/CameraServer/Debug/pch.obj
-VC++/CameraServer/CameraServer/Debug/vc142.idb
-VC++/CameraServer/CameraServer/Debug/vc142.pdb
+VC++/CameraServer/CameraServer/Debug/
 VC++/CameraServer/CameraServer/x64/
 VC++/CameraServer/Debug/CameraServer.exe
 VC++/CameraServer/Debug/CameraServer.ilk
@@ -35,3 +22,9 @@ C#/CameraClient/Communication/bin/
 C#/CameraClient/Communication/obj/
 C#/CameraClient/SDKLib/bin/
 C#/CameraClient/SDKLib/obj/
+.vs/
+C++/LearnCpp/Debug/
+C++/LearnCpp/LearnCpp/Debug/
+C#/LearnSharp/LearnSharp/obj/Debug/
+C#/LearnSharp/LearnSharp/obj/Release/
+C#/LearnSharp/LearnSharp/bin/Debug/
