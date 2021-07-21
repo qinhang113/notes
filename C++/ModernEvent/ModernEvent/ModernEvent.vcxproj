@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7eabc52f-7ae9-489a-b76e-2d3cc1b5640f}</ProjectGuid>
-    <RootNamespace>LearnCpp</RootNamespace>
+    <ProjectGuid>{38aae103-682c-45f3-ac95-b4c2a6036cf4}</ProjectGuid>
+    <RootNamespace>ModernEvent</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,19 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LearnCpp.cpp" />
+    <ClCompile Include="CEvent.cpp" />
+    <ClCompile Include="ModernEvent.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\容器\ArrayClass.hpp" />
-    <ClInclude Include="..\容器\DequeClass.hpp" />
-    <ClInclude Include="..\容器\ForwardlistClass.hpp" />
-    <ClInclude Include="..\容器\ListClass.hpp" />
-    <ClInclude Include="..\容器\MapClass.hpp" />
-    <ClInclude Include="..\容器\VectorClass.hpp" />
-    <ClInclude Include="..\类\ClassClass.hpp" />
-    <ClInclude Include="..\线程\AtomicClass.hpp" />
-    <ClInclude Include="..\线程\ThreadClass.hpp" />
-    <ClInclude Include="BaseClass.h" />
+    <ClInclude Include="CEvent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

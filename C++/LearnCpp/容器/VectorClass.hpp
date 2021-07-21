@@ -4,6 +4,7 @@
 #include <vector>
 class VectorClass : public BaseClass
 {
+	int ivalue;
 public:
 	virtual void TestFun()
 	{
@@ -25,7 +26,7 @@ public:
 		//int p = v2[2];
 		try
 		{
-			int p = v2.at(8);
+			v2.at(8);
 		}
 		catch (const std::exception&)
 		{
@@ -41,7 +42,16 @@ public:
 		{
 			i = v.erase(i);
 		}
-
+		//ฒๅศ๋สýื้
+		int arr[10] = { 0,1,2,3,4,5,6,7,8,9 };
+		//iterator insert(const_iterator _Where, _Iter _First, _Iter _Last)
+		v.insert(v.begin(), std::begin(arr), std::begin(arr) + 2);
+		//iterator insert(const_iterator _Where, initializer_list<_Ty> _Ilist)
+		v.insert(v.begin() + 2, { 2,3 });
+		for (auto& i : v)
+		{
+			std::cout << i << std::endl;
+		}
 	}
 };
 
