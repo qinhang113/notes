@@ -19,7 +19,7 @@ public:
 		}
 		std::cout << std::endl;
 		flist1.assign(3, 1);
-
+		
 		std::forward_list<int> flist2;
 		flist2.assign(flist1.begin(), flist1.end());
 	}

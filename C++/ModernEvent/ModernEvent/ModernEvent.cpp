@@ -7,7 +7,7 @@
 void Trigger(CEvent* _e)
 {
     _e->Trigger(1001);
-    this_thread::sleep_for(chrono::milliseconds(10000));
+    this_thread::sleep_for(chrono::milliseconds(5000));
     _e->Trigger(1002);
 }
 
